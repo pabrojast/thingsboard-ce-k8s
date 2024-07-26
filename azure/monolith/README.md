@@ -4,6 +4,8 @@ This folder containing scripts and Kubernetes resources configurations to run Th
 
 You can find the deployment guide by the [**link**](https://thingsboard.io/docs/user-guide/install/cluster/azure-monolith-setup/)
 
+Resume: 
+```
 #clone
 git clone https://github.com/pabrojast/thingsboard-ce-k8s.git
 cd thingsboard-ce-k8s/azure/monolith
@@ -33,3 +35,4 @@ kubectl apply -f receipts/mqtt-load-balancer.yml
 #kubectl get service
 NAME                      TYPE           CLUSTER-IP     EXTERNAL-IP           PORT(S)                         AGE
 tb-mqtt-loadbalancer      LoadBalancer   10.0.143.217   xxxxxxxxxxxxxx       1883:30504/TCP,8883:31408/TCP   11m
+```
