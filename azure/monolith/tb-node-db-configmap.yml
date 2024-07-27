@@ -25,5 +25,5 @@ data:
   SPRING_JPA_DATABASE_PLATFORM: org.hibernate.dialect.PostgreSQLDialect
   SPRING_DRIVER_CLASS_NAME: org.postgresql.Driver
   SPRING_DATASOURCE_URL: jdbc:postgresql://tbdbunesco.postgres.database.azure.com/thingsboard?sslmode=require
-  SPRING_DATASOURCE_USERNAME: thingsboarduser
-  SPRING_DATASOURCE_PASSWORD: pf5iJ9TugX2lAjO
+  SPRING_DATASOURCE_USERNAME: XXXXXXXXXXX
+  SPRING_DATASOURCE_PASSWORD: XXXXXXXXXXX
